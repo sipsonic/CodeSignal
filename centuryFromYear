@@ -1,0 +1,13 @@
+int centuryFromYear(int year) {
+// If the year is evenly divisible by 100
+    if(year % 100 == 0){
+        int div = year/100;
+// Divide by 100 and return
+        return div;
+    } else {
+// Else, divide by 100 and add one
+        int div = year/100 +1;
+// Round down and return
+        return floor(div);
+    }
+}
