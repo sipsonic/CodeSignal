@@ -1,0 +1,4 @@
+bool checkPalindrome(string inputString)
+{
+   return (inputString == string(inputString.rbegin(), inputString.rend()));
+}
